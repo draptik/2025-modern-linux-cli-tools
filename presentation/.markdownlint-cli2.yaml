@@ -4,7 +4,6 @@ config:
   MD003: false # consistent heading styles
   MD033: false # no inline html
   MD024: false # no duplicate headings
-  MD025: false # single title
   MD036: false # no emphasis as heading
   MD045: false # no alt text
   MD026: false # no trailing punctuation in headings

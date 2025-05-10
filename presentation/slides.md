@@ -4,7 +4,7 @@ defaults:
   layout: "default-with-footer"
 title: 'modern linux cli tools'
 occasion: "MD-DevDays 2025"
-# must be a relative path
+## must be a relative path
 occasionLogoUrl: "./images/logo-md-devdays25.svg"
 company: "MATHEMA GmbH"
 presenter: "Patrick Drechsler"
@@ -27,7 +27,7 @@ src: ./pages/01-intro.md
 layout: two-cols
 ---
 
-# "modern" is relative...
+## "modern" is relative...
 
 Douglas Adams
 
@@ -78,7 +78,7 @@ img {
 
 ---
 
-# Target audience
+## Target audience
 
 - linux desktop CLI users
 - linux admins
@@ -102,7 +102,7 @@ img {
 
 ---
 
-# Linux tooling philosophy
+## Linux tooling philosophy
 
 - **do one thing (and only one thing!) well**
 - **chaining**
@@ -110,16 +110,17 @@ img {
 
 ---
 
-# Why? Improvements to...
+## Why? Improvements to...
 
 - **productivity**
   - one cli command is better than multiple clicks in a GUI
+  - cli commands are reproducible and easier to document (no screenshots: remember IIS?)
 - **optics**
   - "unix porn" (`PS1`, `ls`, ...)
 
 ---
 
-# Learn the basics
+## Learn the basics
 
 VS Code is cool, but it is not a CLI tool
 
@@ -150,7 +151,7 @@ VS Code is cool, but it is not a CLI tool
 
 ---
 
-# Disclaimer
+## Disclaimer
 
 .
 
@@ -160,7 +161,7 @@ VS Code is cool, but it is not a CLI tool
 
 ---
 
-# terminal and shell: what's the difference?
+## terminal and shell: what's the difference?
 
 <div grid="~ cols-4 gap-4">
 <div>
@@ -242,7 +243,7 @@ VS Code is cool, but it is not a CLI tool
 
 ---
 
-# terminals
+## terminals
 
 modern alternatives
 
@@ -263,7 +264,7 @@ not the topic of this talk, but...
 
 ---
 
-# nushell: The new kid on the block
+## nushell: The new kid on the block
 
 Everything is data
 
@@ -279,9 +280,7 @@ Everything is data
 
 ---
 
-<!-- shell / PS1 -->
-
-# PS1
+## PS1
 
 PS1: alias for "prompt string 1"
 
@@ -297,30 +296,7 @@ Extra, nice-to-have information
 
 ---
 
-<!-- shell / PS1 -->
-
-# PS1: Powerline
-
-started as fancy statusline for `vim`...
-
-- <gh-stars count="13k"/> <https://github.com/powerline/powerline>
-- good-looking default settings
-  - shortens `$PWD`
-  - adds git status
-  - stable & customizable
-- available for `zsh`, `bash`, etc
-- category: unix-porn
-
-<img
-  class="absolute bottom-20 right-20"
-  src="/images/powerline-shell-example.png"
-/>
-
----
-
-<!-- shell / PS1 -->
-
-# PS1: Starship
+## PS1: Starship
 
 the new kid on the block
 
@@ -343,7 +319,7 @@ the new kid on the block
 
 ---
 
-# tmux
+## tmux
 
 terminal-independent shell UI
 
@@ -357,7 +333,7 @@ terminal-independent shell UI
 
 ---
 
-# byobu
+## byobu
 
 `tmux`-wrapper for non-vim users
 
@@ -368,7 +344,7 @@ terminal-independent shell UI
 
 ---
 
-# ⚠️ Warning about tiling everything ⚠️
+## ⚠️ Warning about tiling everything ⚠️
 
 don't forget about all the fun keybindings
 
@@ -383,7 +359,7 @@ Nesting can become a challenge...
 
 ---
 
-# mob 💡
+## mob 💡
 
 Smooth git handover
 
@@ -410,7 +386,7 @@ mob done
 
 ---
 
-# ranger
+## ranger
 
 file explorer / manager
 
@@ -423,17 +399,11 @@ file explorer / manager
 - key bindings: see `~/.config/ranger/rc.conf` starting at line ~300...
 - category: navigation, file system
 
-<!--
-Demo:
-- kitty with image preview
-- copy `yy` & paste `pp`
--->
-
 ---
 layout: two-cols
 ---
 
-# clifm
+## clifm
 
 another terminal file manager
 
@@ -453,7 +423,7 @@ another terminal file manager
 
 ---
 
-# nnn
+## nnn
 
 another terminal file manager
 
@@ -471,7 +441,7 @@ another terminal file manager
 layout: two-cols
 ---
 
-# Yazi
+## Yazi
 
 fast terminal file manager
 
@@ -490,7 +460,7 @@ fast terminal file manager
 
 ---
 
-# Emacs: wdired-mode
+## Emacs: wdired-mode
 
 - for Emacs users
 - <https://www.gnu.org/software/emacs/manual/html_node/emacs/Wdired.html>
@@ -500,17 +470,11 @@ fast terminal file manager
 - finish: `C-c C-c`
 - exit
 
-<!--
-Demo:
-- open demo folder
-- change some file names
--->
-
 ---
 layout: two-cols
 ---
 
-# tldr 💡
+## tldr 💡
 
 man pages can be difficult
 
@@ -553,18 +517,13 @@ man pages can be difficult
 
 ---
 
-# McFly
+## atuin
 
-an upgraded <kbd>Ctrl R</kbd> **where history results make sense for what you're working on right now**
-
-- <gh-stars count="5k"/> <https://github.com/cantino/mcfly>
-- category: history search
-
-> McFly replaces your default <kbd>Ctrl R</kbd> shell history search with an intelligent search engine that takes into account your working directory and the context of recently executed commands. McFly's suggestions are prioritized in real time with a small neural network.
+TODO
 
 ---
 
-# bat 💡
+## bat 💡
 
 `cat` & `less` with syntax highlighting
 
@@ -572,17 +531,9 @@ an upgraded <kbd>Ctrl R</kbd> **where history results make sense for what you're
 - hint: can be used as preview by `ranger`...
 - category: file preview
 
-<!--
-Demo:
-- cd some-code
-- cat Demo1.fs
-- less Demo1.fs
-- bat Demo1.fs
--->
-
 ---
 
-# ripgrep 💡
+## ripgrep 💡
 
 very fast `grep` replacement
 
@@ -594,17 +545,9 @@ very fast `grep` replacement
 - use `rg --hidden -g '!.git' "your search"` to search all hidden folder except `.git`
   - create an alias (maybe `rgh`?)...
 
-<!--
-Demo:
-- single file -> "foo" -> found
-- within .git folder -> "foo" -> not found
-- within node_modules folder -> "foo" -> not found by default, because in .gitignore
-- within node_modules folder -> "foo" -> found using `rg --hidden -g '!.git'`
--->
-
 ---
 
-# ripgrep-all
+## ripgrep-all
 
 ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, sqlite (!), etc
 
@@ -614,14 +557,9 @@ ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, sqlite
 - category: search
 - Demo: search in Manning books folder
 
-<!--
-cd ~/Dropbox/Apps/Manning\ Books/
-rga Vladimir
--->
-
 ---
 
-# fd 💡
+## fd 💡
 
 simple alternative to `find`
 
@@ -634,7 +572,7 @@ simple alternative to `find`
 
 ---
 
-# fzf 💡
+## fzf 💡
 
 interactive fuzzy search
 
@@ -649,23 +587,11 @@ interactive fuzzy search
 - Things you can do with fzf: <https://andrew-quinn.me/fzf>
 - category: search
 
-<!--
-
-- `fzf -m` multiselect
-- select files with Shift+TAB
-- search for "bob"
-- find * -type f | fzf -m
-
-cd .
-search for  "linux"
-cat slides.md | fzf
--->
-
 ---
 layout: two-cols
 ---
 
-# jq & Co
+## jq & Co
 
 sql for json (and other data formats)
 
@@ -697,28 +623,23 @@ layout: screencast
 image: './screencasts/out2c.gif'
 ---
 
-# hyperfine
+## hyperfine
 
 benchmarking tool
 
 - <gh-stars count="15k"/> <https://github.com/sharkdp/hyperfine>
 
 ```sh
-# comparing `fd` with `find`
+## comparing `fd` with `find`
 hyperfine --warmup 3 \
     'fd -e jpg -uu' \
     'find -iname "*.jpg"' 
 ```
 
 - category: benchmarking
-
-<!-- 
-hyperfine --warmup 3 'fd -e jpg -uu' 'find -iname "*.jpg"' 
--->
-
 ---
 
-# progress
+## progress
 
 monitor any kind of "copy"
 
@@ -732,14 +653,9 @@ sha1sum, sha224sum, sha256sum, sha384sum, sha512sum, adb, gzip, gunzip, bzip2, b
 unxz, lzma, unlzma, 7z, 7za, zcat, bzcat, lzcat, split, gpg, or wrong permissions.
 ```
 
-<!--
-- `scp ubuntu*.iso pi@camel:~/`
-- `watch progress`
--->
-
 ---
 
-# Ultimate Plumber (up)
+## Ultimate Plumber (up)
 
 interactive REPL for shell piping
 
@@ -753,15 +669,9 @@ interactive REPL for shell piping
   src="/images/ultimate-plumber-logo.svg"
 />
 
-<!--
-- cd some-project
-- cat Demo1.fs | up
-- grep credit
--->
-
 ---
 
-# lolcat 🦄
+## lolcat 🦄
 
 Rainbows and unicorns
 
@@ -775,7 +685,7 @@ Rainbows and unicorns
 
 ---
 
-# no-more-secrets 🦄
+## no-more-secrets 🦄
 
 when the tv team comes in your office
 
@@ -794,16 +704,9 @@ when the tv team comes in your office
   src="/images/nms-sneakers.gif"
 />
 
-<!-- 
-- video: from 0:35 to 0:45 ... 
-- sneakers
-- lc | nms
-- lc | nms | lolcat
--->
-
 ---
 
-# sl 🦄
+## sl 🦄
 
 - <gh-stars count="3k"/> <https://github.com/mtoyoda/sl>
 - typo `sl` (instead of `ls`) -> show steam locomotive
@@ -817,7 +720,7 @@ when the tv team comes in your office
 
 ---
 
-# gh
+## gh
 
 GitHub CLI
 
@@ -829,7 +732,7 @@ GitHub CLI
 
 ---
 
-# thefuck 💡
+## thefuck 💡
 
 fix common typos / mistakes
 
@@ -844,7 +747,7 @@ fix common typos / mistakes
 
 ---
 
-# ls on steroids
+## ls on steroids
 
 `ls` problem: **sort by name and time and size** at the same time...
 
@@ -873,7 +776,7 @@ Required: font providing all symbols
 
 ---
 
-# du alternatives 💡
+## du alternatives 💡
 
 `du` in the name
 
@@ -889,7 +792,7 @@ Required: font providing all symbols
 
 ---
 
-# boxes 🦄
+## boxes 🦄
 
 - <https://boxes.thomasjensen.com/docs/>
 - ascii art boxes
@@ -901,14 +804,9 @@ Required: font providing all symbols
   src="/images/boxes.png"
 />
 
-<!-- 
-- echo "Hello World!" | boxes -d peek
-- echo "Hello World!" | lolcat -f | boxes -d peek
--->
-
 ---
 
-# chatGPT-shell-cli
+## chatGPT-shell-cli
 
 2023 - no presentation without the current hype: ChatGPT
 
@@ -924,7 +822,7 @@ Required: font providing all symbols
 
 ---
 
-# monitoring
+## monitoring
 
 Everything *top
 
@@ -940,7 +838,7 @@ Everything *top
 
 ---
 
-# lazy*
+## lazy*
 
 Everything lazy*
 
@@ -961,7 +859,7 @@ Everything lazy*
 
 ---
 
-# Why didn't I show this presentation in a shell?
+## Why didn't I show this presentation in a shell?
 
 I've done it 😇
 
@@ -973,7 +871,7 @@ I've done it 😇
 
 ---
 
-# Resources
+## Resources
 
 <div grid="~ cols-2 gap-4">
 <div>
@@ -1003,7 +901,7 @@ This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19
 
 ---
 
-# I forgot your favorite tool?
+## I forgot your favorite tool?
 
 <div grid="~ cols-2 gap-4">
 <div>
