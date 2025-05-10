@@ -3,15 +3,14 @@ theme: ./mathema-2023
 defaults:
   layout: "default-with-footer"
 title: 'modern linux cli tools'
-occasion: "ADC 2024"
+occasion: "MD-DevDays 2025"
 # must be a relative path
-occasionLogoUrl: "./images/logo_adc.png"
+occasionLogoUrl: "./images/logo-md-devdays25.svg"
 company: "MATHEMA GmbH"
 presenter: "Patrick Drechsler"
 contact: "patrick.drechsler@mathema.de"
 info: |
   ## modern linux cli tools
-canvasWidth: 980
 layout: cover
 transition: slide-left
 mdc: true
@@ -53,7 +52,6 @@ I've come up with a set of rules that describe our reactions to technologies:
   src="/images/telephone-old-unsplash.jpg"
 />
 
-
 <style>
 h1 {
     font-size: 26px;
@@ -88,7 +86,7 @@ img {
 - devops/cloud users
 - ...
 
-```
+```txt
   __________________________________________
  / This is the year of linux on the desktop \
 |                                            |
@@ -117,7 +115,7 @@ img {
 - **productivity**
   - one cli command is better than multiple clicks in a GUI
 - **optics**
-    - "unix porn" (`PS1`, `ls`, ...)
+  - "unix porn" (`PS1`, `ls`, ...)
 
 ---
 
@@ -129,11 +127,11 @@ VS Code is cool, but it is not a CLI tool
 <div>
 
 - **Emacs** and **Vim**:
-    - navigation within file
-    - cut, copy & paste
-    - navigation between files
-    - and how to exit
-    - pick one and become fluent
+  - navigation within file
+  - cut, copy & paste
+  - navigation between files
+  - and how to exit
+  - pick one and become fluent
 - Learn basic cli commands: `cd`, `ls`, `cat`, `less`, `find`, `grep`, `sed`, `tail`, `awk`, `dd`, `rsync`, ...
 - Combine using pipes and redirection
 
@@ -149,7 +147,6 @@ VS Code is cool, but it is not a CLI tool
 <img
   class="absolute bottom-10 right-40 w-75"
   src="/images/comic-awk-grep-sed.png" />
-
 
 ---
 
@@ -187,11 +184,11 @@ VS Code is cool, but it is not a CLI tool
 
 **terminal**
 
-- **colors** (16 or more), 
+- **colors** (16 or more),
 - **fonts** (utf8, ligatures, emojis, ...)
 - **interactions**
-    - keyboard shortcuts
-    - mouse interaction (copy & paste, scrolling, selection, ...)
+  - keyboard shortcuts
+  - mouse interaction (copy & paste, scrolling, selection, ...)
 
 **shell**
 
@@ -210,7 +207,6 @@ VS Code is cool, but it is not a CLI tool
 
 **but think about enriching your output!**
 
-
 - Emojis: 👍 ✅ 💥 ✌️ 💩 € ★
 - Unicode, Emojis, Fonts, Image support (!)
 
@@ -227,7 +223,7 @@ VS Code is cool, but it is not a CLI tool
 
 ## terminal - Retro style 🦄
 
-- cool-retro-term: <gh-stars count="18k"/> https://github.com/Swordfish90/cool-retro-term
+- cool-retro-term: <gh-stars count="18k"/> <https://github.com/Swordfish90/cool-retro-term>
 
 <img
   class="absolute bottom-50 left-10"
@@ -252,9 +248,9 @@ modern alternatives
 
 not the topic of this talk, but...
 
-- kitty: <gh-stars count="20k"/> https://github.com/kovidgoyal/kitty
-- alacritty <gh-stars count="49k"/> https://github.com/alacritty/alacritty
-- wezterm <gh-stars count="10k"/> https://github.com/wez/wezterm
+- kitty: <gh-stars count="20k"/> <https://github.com/kovidgoyal/kitty>
+- alacritty <gh-stars count="49k"/> <https://github.com/alacritty/alacritty>
+- wezterm <gh-stars count="10k"/> <https://github.com/wez/wezterm>
 
 ---
 
@@ -272,7 +268,7 @@ not the topic of this talk, but...
 Everything is data
 
 - keep an eye on it!
-  - <gh-stars count="26k"/> https://github.com/nushell/nushell
+  - <gh-stars count="26k"/> <https://github.com/nushell/nushell>
 - 100% **NOT** POSIX conform
 - category: experimental
 
@@ -307,7 +303,7 @@ Extra, nice-to-have information
 
 started as fancy statusline for `vim`...
 
-- <gh-stars count="13k"/> https://github.com/powerline/powerline
+- <gh-stars count="13k"/> <https://github.com/powerline/powerline>
 - good-looking default settings
   - shortens `$PWD`
   - adds git status
@@ -328,7 +324,7 @@ started as fancy statusline for `vim`...
 
 the new kid on the block
 
-- <gh-stars count="33k"/> https://github.com/starship/starship
+- <gh-stars count="33k"/> <https://github.com/starship/starship>
 - cross-plattform, cross-shell (even Windows cmd.exe)
 - stylish
 - great defaults for many environments
@@ -351,7 +347,7 @@ the new kid on the block
 
 terminal-independent shell UI
 
-- <gh-stars count="28k"/> https://github.com/tmux/tmux
+- <gh-stars count="28k"/> <https://github.com/tmux/tmux>
 - terminal multiplexer
 - "tabs" and "split screen" features: terminal independent
 - detachable sessions
@@ -365,7 +361,7 @@ terminal-independent shell UI
 
 `tmux`-wrapper for non-vim users
 
-- (mirrored repo: ~1k stars) https://www.byobu.org/
+- (mirrored repo: ~1k stars) <https://www.byobu.org/>
 - Keybindings `F1` - `F12`
 - Sensible defaults (layout, info line)
 - category: productivity
@@ -391,7 +387,7 @@ Nesting can become a challenge...
 
 Smooth git handover
 
-- <gh-stars count="1k"/> https://mob.sh/
+- <gh-stars count="1k"/> <https://mob.sh/>
 - remote ensemble or pair programming using screen sharing
 
 <img
@@ -418,12 +414,12 @@ mob done
 
 file explorer / manager
 
-- <gh-stars count="13k"/> https://ranger.github.io
+- <gh-stars count="13k"/> <https://ranger.github.io>
 - 2 layout options
-    - miller columns ("mac" style)
-    - multipane (similar to Midnight commander)
+  - miller columns ("mac" style)
+  - multipane (similar to Midnight commander)
 - powerful preview mode and program launcher (word, music, ...)
-    - with image support for certain terminals (`iterms2`, `urxvt`, `kitty`) not `gnome-terminal` (!)
+  - with image support for certain terminals (`iterms2`, `urxvt`, `kitty`) not `gnome-terminal` (!)
 - key bindings: see `~/.config/ranger/rc.conf` starting at line ~300...
 - category: navigation, file system
 
@@ -445,7 +441,7 @@ another terminal file manager
 >
 > For this reason, clifm does not need to be better: it's just different!
 
-- <gh-stars count="1.1k"/> https://github.com/leo-arch/clifm
+- <gh-stars count="1.1k"/> <https://github.com/leo-arch/clifm>
 - `ranger` alternative
 - category: navigation, file system
 
@@ -454,7 +450,6 @@ another terminal file manager
 <img
   src="/screencasts/clifm.gif"
 />
-
 
 ---
 
@@ -482,7 +477,7 @@ fast terminal file manager
 
 > Yazi ("duck" in Chinese) is a terminal file manager written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
 
-- <gh-stars count="3k"/> https://github.com/sxyazi/yazi
+- <gh-stars count="3k"/> <https://github.com/sxyazi/yazi>
 - `ranger` alternative
 - category: navigation, file system
 
@@ -498,13 +493,12 @@ fast terminal file manager
 # Emacs: wdired-mode
 
 - for Emacs users
-- https://www.gnu.org/software/emacs/manual/html_node/emacs/Wdired.html
+- <https://www.gnu.org/software/emacs/manual/html_node/emacs/Wdired.html>
 - `emacs -nw .` emacs in current directory in terminal (`-nw`: non-window mode)
 - `M-x wdired-change-to-wdired-mode`
 - edit (using all emacs features)
 - finish: `C-c C-c`
 - exit
-
 
 <!--
 Demo:
@@ -520,14 +514,14 @@ layout: two-cols
 
 man pages can be difficult
 
-- <gh-stars count="44k"/> https://tldr.sh/
-- clients implemented in many languages 
+- <gh-stars count="44k"/> <https://tldr.sh/>
+- clients implemented in many languages
   - js, ruby, python, perl, haskell, etc.
 - shared user-contributed knowledge-base
 
 ## Tealdeer
 
-- <gh-stars count="2k"/> https://github.com/dbrgn/tealdeer
+- <gh-stars count="2k"/> <https://github.com/dbrgn/tealdeer>
 - ...in rust
 
 ::right::
@@ -563,7 +557,7 @@ man pages can be difficult
 
 an upgraded <kbd>Ctrl R</kbd> **where history results make sense for what you're working on right now**
 
-- <gh-stars count="5k"/> https://github.com/cantino/mcfly
+- <gh-stars count="5k"/> <https://github.com/cantino/mcfly>
 - category: history search
 
 > McFly replaces your default <kbd>Ctrl R</kbd> shell history search with an intelligent search engine that takes into account your working directory and the context of recently executed commands. McFly's suggestions are prioritized in real time with a small neural network.
@@ -574,7 +568,7 @@ an upgraded <kbd>Ctrl R</kbd> **where history results make sense for what you're
 
 `cat` & `less` with syntax highlighting
 
-- <gh-stars count="40k"/> https://github.com/sharkdp/bat
+- <gh-stars count="40k"/> <https://github.com/sharkdp/bat>
 - hint: can be used as preview by `ranger`...
 - category: file preview
 
@@ -592,7 +586,7 @@ Demo:
 
 very fast `grep` replacement
 
-- <gh-stars count="37k"/> https://github.com/BurntSushi/ripgrep
+- <gh-stars count="37k"/> <https://github.com/BurntSushi/ripgrep>
 - `ripgrep` **recursively** searches directories for a regex pattern
 - sensible defaults: respect `.gitignore`, ignores hidden files & folders
 - command: `rg`
@@ -614,7 +608,7 @@ Demo:
 
 ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, sqlite (!), etc
 
-- <gh-stars count="5k"/> https://github.com/phiresky/ripgrep-all
+- <gh-stars count="5k"/> <https://github.com/phiresky/ripgrep-all>
 - command: `rga`
 - faster than `pdfgrep` (see website for a benchmark)
 - category: search
@@ -631,7 +625,7 @@ rga Vladimir
 
 simple alternative to `find`
 
-- <gh-stars count="27k"/> https://github.com/sharkdp/fd
+- <gh-stars count="27k"/> <https://github.com/sharkdp/fd>
 - "The command name is 50% shorter than `find`"
 - Convenient syntax `fd PATTERN` (instead of `find -iname '*PATTERN*'`)
 - Sensible defaults: `.gitignore`, ignore hidden files/folders
@@ -644,19 +638,18 @@ simple alternative to `find`
 
 interactive fuzzy search
 
-- <gh-stars count="51k"/> https://github.com/junegunn/fzf
+- <gh-stars count="51k"/> <https://github.com/junegunn/fzf>
 - excellent integration with other tools: Install it and it will be used by many other tools
 - `Alt+c`: quick `cd` navigation
 - nice helper methods. `<cmd> **<TAB>`, for example:
-    - `cd **<TAB>`
-    - `ssh **<TAB>`
-    - `unset **<TAB>`, `export **<TAB>`, `unalias **<TAB>`
-    - `kill -9 <TAB>` careful..
-- Things you can do with fzf: https://andrew-quinn.me/fzf
+  - `cd **<TAB>`
+  - `ssh **<TAB>`
+  - `unset **<TAB>`, `export **<TAB>`, `unalias **<TAB>`
+  - `kill -9 <TAB>` careful..
+- Things you can do with fzf: <https://andrew-quinn.me/fzf>
 - category: search
 
 <!--
-
 
 - `fzf -m` multiselect
 - select files with Shift+TAB
@@ -679,25 +672,24 @@ sql for json (and other data formats)
 ## jq
 
 - lightweight and flexible command-line JSON processor
-- <gh-stars count="26k"/> https://github.com/jqlang/jq
-
+- <gh-stars count="26k"/> <https://github.com/jqlang/jq>
 
 ## jqp
 
 - TUI for `jq`
-- <gh-stars count="1.8k"/> https://github.com/noahgorstein/jqp
+- <gh-stars count="1.8k"/> <https://github.com/noahgorstein/jqp>
 
 ::right::
 
 ## miller
 
 - similar to `jq`, but also for CSV, TSV, JSON, etc.
-- <gh-stars count="8k"/> https://github.com/johnkerl/miller
+- <gh-stars count="8k"/> <https://github.com/johnkerl/miller>
 
 ## fq
 
 - `jq`, but for binary data
-- <gh-stars count="8k"/> https://github.com/wader/fq
+- <gh-stars count="8k"/> <https://github.com/wader/fq>
 - for example: audio, video, images, etc.
 
 ---
@@ -709,7 +701,7 @@ image: './screencasts/out2c.gif'
 
 benchmarking tool
 
-- <gh-stars count="15k"/> https://github.com/sharkdp/hyperfine
+- <gh-stars count="15k"/> <https://github.com/sharkdp/hyperfine>
 
 ```sh
 # comparing `fd` with `find`
@@ -730,7 +722,7 @@ hyperfine --warmup 3 'fd -e jpg -uu' 'find -iname "*.jpg"'
 
 monitor any kind of "copy"
 
-- <gh-stars count="6k"/> https://github.com/Xfennec/progress
+- <gh-stars count="6k"/> <https://github.com/Xfennec/progress>
 - attach to any kind of copy, even after the fact (!)
 - category: monitoring
 
@@ -751,7 +743,7 @@ unxz, lzma, unlzma, 7z, 7za, zcat, bzcat, lzcat, split, gpg, or wrong permission
 
 interactive REPL for shell piping
 
-- <gh-stars count="8k"/> https://github.com/akavel/up
+- <gh-stars count="8k"/> <https://github.com/akavel/up>
 - interactive piping
 - instant live preview
 - category: search, file manipulation, interactive
@@ -773,7 +765,7 @@ interactive REPL for shell piping
 
 Rainbows and unicorns
 
-- <gh-stars count="5k"/> https://github.com/busyloop/lolcat
+- <gh-stars count="5k"/> <https://github.com/busyloop/lolcat>
 - category: fun, unix porn
 
 <img
@@ -787,10 +779,9 @@ Rainbows and unicorns
 
 when the tv team comes in your office
 
-- <gh-stars count="5k"/> https://github.com/bartobri/no-more-secrets
+- <gh-stars count="5k"/> <https://github.com/bartobri/no-more-secrets>
 - pipe something to `nms` or just run `sneakers`
 - category: fun, unix porn
-
 
 <Youtube id="F5bAa6gFvLs" />
 
@@ -814,7 +805,7 @@ when the tv team comes in your office
 
 # sl 🦄
 
-- <gh-stars count="3k"/> https://github.com/mtoyoda/sl
+- <gh-stars count="3k"/> <https://github.com/mtoyoda/sl>
 - typo `sl` (instead of `ls`) -> show steam locomotive
 - can we pipe it to `lolcat`? of course
 - category: fun, unix porn
@@ -830,7 +821,7 @@ when the tv team comes in your office
 
 GitHub CLI
 
-- <gh-stars count="32k"/> https://github.com/cli/cli
+- <gh-stars count="32k"/> <https://github.com/cli/cli>
 - Example: push current git folder to new private github repo:
   - `gh repo create --source . --push --private`
 - create PRs
@@ -842,7 +833,7 @@ GitHub CLI
 
 fix common typos / mistakes
 
-- <gh-stars count="77k"/> https://github.com/nvbn/thefuck
+- <gh-stars count="77k"/> <https://github.com/nvbn/thefuck>
 - example: pushing a newly created git branch
 - category: productivity
 
@@ -859,20 +850,20 @@ fix common typos / mistakes
 
 **Use colors!**
 
-- `colorls` ("the original" in ruby: https://github.com/athityakumar/colorls)
-- `lsd` (in rust: https://github.com/Peltoche/lsd)
-- ~~`exa`~~ (in rust: https://github.com/ogham/exa)
-- `eza` (in rust: https://github.com/eza-community/eza)
+- `colorls` ("the original" in ruby: <https://github.com/athityakumar/colorls)>
+- `lsd` (in rust: <https://github.com/Peltoche/lsd>)
+- ~~`exa`~~ (in rust: <https://github.com/ogham/exa>)
+- `eza` (in rust: <https://github.com/eza-community/eza>)
 
 Required: font providing all symbols
 
-- Example: NerdFonts https://github.com/ryanoasis/nerd-fonts
+- Example: NerdFonts <https://github.com/ryanoasis/nerd-fonts>
 
 ---
 
 ## eza 💡
 
-- <gh-stars count="7k"/> https://github.com/eza-community/eza
+- <gh-stars count="7k"/> <https://github.com/eza-community/eza>
 - category: unix porn
 
 <img
@@ -887,7 +878,7 @@ Required: font providing all symbols
 `du` in the name
 
 - ncdu - we all know this
-  - https://dev.yorhel.nl/ncdu
+  - <https://dev.yorhel.nl/ncdu>
 - <gh-stars count="2k"/> [gdu: https://github.com/dundee/gdu](https://github.com/dundee/gdu)
 - <gh-stars count="6k"/> [dust: https://github.com/bootandy/dust](https://github.com/bootandy/dust)
 
@@ -900,11 +891,10 @@ Required: font providing all symbols
 
 # boxes 🦄
 
-- https://boxes.thomasjensen.com/docs/
+- <https://boxes.thomasjensen.com/docs/>
 - ascii art boxes
 - show all templates: `boxes -l`
 - category: unix porn
-
 
 <img
   class="absolute bottom-30 right-30 w-100"
@@ -922,11 +912,10 @@ Required: font providing all symbols
 
 2023 - no presentation without the current hype: ChatGPT
 
-- <gh-stars count="414"/> https://github.com/0xacx/chatGPT-shell-cli
+- <gh-stars count="414"/> <https://github.com/0xacx/chatGPT-shell-cli>
 - Chat-GPT client without any dependencies
 - like most clients: requires API-Key
 - command: `chatgpt`
-
 
 <img
   class="absolute bottom-30 right-30 w-200"
@@ -956,10 +945,9 @@ Everything *top
 Everything lazy*
 
 - lazydocker
-  - <gh-stars count="27k"/> https://github.com/jesseduffield/lazydocker
+  - <gh-stars count="27k"/> <https://github.com/jesseduffield/lazydocker>
 - lazygit
-  - <gh-stars count="35k"/> https://github.com/jesseduffield/lazygit
-
+  - <gh-stars count="35k"/> <https://github.com/jesseduffield/lazygit>
 
 <img
   class="absolute bottom-0 left-5 w-125"
@@ -977,7 +965,7 @@ Everything lazy*
 
 I've done it 😇
 
-- <gh-stars count="1.9k"/> https://github.com/jaspervdj/patat
+- <gh-stars count="1.9k"/> <https://github.com/jaspervdj/patat>
   - Haskell-based
   - plain CLI
 - no image support
@@ -990,8 +978,8 @@ I've done it 😇
 <div grid="~ cols-2 gap-4">
 <div>
 
-- <mdi-mastodon class="inline"/> https://mastodon.social/@climagic
-- <mdi-mastodon class="inline"/> https://mastodon.social/@nixCraft
+- <mdi-mastodon class="inline"/> <https://mastodon.social/@climagic>
+- <mdi-mastodon class="inline"/> <https://mastodon.social/@nixCraft>
 - <mdi-reddit class="inline"/> [r/commandline](https://www.reddit.com/r/commandline/)
 - <mdi-reddit class="inline"/> [r/unixporn](https://www.reddit.com/r/unixporn/)
 - search for "**awesome-cli**"
@@ -1020,33 +1008,33 @@ This talk was inspired by Martin Leyrer's session at [Gulaschprogrammiernacht 19
 <div grid="~ cols-2 gap-4">
 <div>
 
-- git-fuzzy https://github.com/bigH/git-fuzzy
-- forgit https://github.com/wfxr/forgit
-- mosh (robust replacement for ssh) https://mosh.org/
-- fish_config (web-based configuration tool for fish shell) https://fishshell.com/docs/current/commands.html#fish_config
-- xclip (cli to X clipboard) 403 stars https://github.com/astrand/xclip
-- neofetch (fancy system info in the shell) 7.7k stars https://github.com/dylanaraps/neofetch 
-- expect https://likegeeks.com/expect-command/
-- httpie (cli http client) 45k stars https://httpie.org/
-- http-prompt (cli http client) 7.6k stars http://http-prompt.com/
-- pywal (color schemes for terminal) 3.4k stars https://github.com/dylanaraps/pywal
-- ytfzf https://github.com/pystardust/ytfzf find YT videos and downloads them using youtube-dl
-- figlet http://www.figlet.org/ ascii art
-- toilet http://caca.zoy.org/wiki/toilet ascii art
+- git-fuzzy <https://github.com/bigH/git-fuzzy>
+- forgit <https://github.com/wfxr/forgit>
+- mosh (robust replacement for ssh) <https://mosh.org/>
+- fish_config (web-based configuration tool for fish shell) <https://fishshell.com/docs/current/commands.html#fish_config>
+- xclip (cli to X clipboard) 403 stars <https://github.com/astrand/xclip>
+- neofetch (fancy system info in the shell) 7.7k stars <https://github.com/dylanaraps/neofetch>
+- expect <https://likegeeks.com/expect-command/>
+- httpie (cli http client) 45k stars <https://httpie.org/>
+- http-prompt (cli http client) 7.6k stars <http://http-prompt.com/>
+- pywal (color schemes for terminal) 3.4k stars <https://github.com/dylanaraps/pywal>
+- ytfzf <https://github.com/pystardust/ytfzf> find YT videos and downloads them using youtube-dl
+- figlet <http://www.figlet.org/> ascii art
+- toilet <http://caca.zoy.org/wiki/toilet> ascii art
 
 </div>
 <div>
 
-- apt-iselect (interactive ncurses package search for debian) https://www.rot13.org/~dpavlin/apt-iselect.html
-- gcalcli (google calender in the shell) 2k stars https://github.com/insanum/gcalcli
-- pastebinit (cli tool to send data to pastebin) 17 stars https://github.com/skorokithakis/pastebinit
-- MapSCII (ascii google maps in the terminal) https://github.com/rastapasta/mapscii
-- alwaysontop (always move prompt to top of screen) 160 stars https://github.com/swirepe/alwaysontop
-- wttr.in (ascii weather report) https://github.com/chubin/wttr.in
-- gpt4free https://github.com/xtekky/gpt4free
-- Fig https://fig.io/ Autocomplete on-steroids
-- xkcd.xsh https://gist.github.com/Lassi-Koykka/9fb934732a871ca3c8bc9396983a3310
-- fx (json cli viewer) https://github.com/antonmedv/fx
+- apt-iselect (interactive ncurses package search for debian) <https://www.rot13.org/~dpavlin/apt-iselect.html>
+- gcalcli (google calender in the shell) 2k stars <https://github.com/insanum/gcalcli>
+- pastebinit (cli tool to send data to pastebin) 17 stars <https://github.com/skorokithakis/pastebinit>
+- MapSCII (ascii google maps in the terminal) <https://github.com/rastapasta/mapscii>
+- alwaysontop (always move prompt to top of screen) 160 stars <https://github.com/swirepe/alwaysontop>
+- wttr.in (ascii weather report) <https://github.com/chubin/wttr.in>
+- gpt4free <https://github.com/xtekky/gpt4free>
+- Fig <https://fig.io/> Autocomplete on-steroids
+- xkcd.xsh <https://gist.github.com/Lassi-Koykka/9fb934732a871ca3c8bc9396983a3310>
+- fx (json cli viewer) <https://github.com/antonmedv/fx>
 
 </div>
 </div>
