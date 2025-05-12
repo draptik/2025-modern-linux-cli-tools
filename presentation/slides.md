@@ -604,30 +604,35 @@ layout: two-cols
 
 ## jq & Co
 
-sql for json (and other data formats)
+"sql for json" (and other data formats)
 
-## jq
+### jq
 
 - lightweight and flexible command-line JSON processor
 - <gh-stars count="26k"/> <https://github.com/jqlang/jq>
 
-## jqp
+### jqp
 
 - TUI for `jq`
 - <gh-stars count="1.8k"/> <https://github.com/noahgorstein/jqp>
 
 ::right::
 
-## miller
+### miller
 
 - similar to `jq`, but also for CSV, TSV, JSON, etc.
 - <gh-stars count="8k"/> <https://github.com/johnkerl/miller>
 
-## fq
+### fq
 
 - `jq`, but for binary data
 - <gh-stars count="8k"/> <https://github.com/wader/fq>
 - for example: audio, video, images, etc.
+
+### yq
+
+- `jq`, but for YAML
+- <gh-stars count="13k"/> <https://github.com/mikefarah/yq>
 
 ---
 layout: screencast
@@ -664,22 +669,6 @@ No command currently running: cp, mv, dd, tar, cat, rsync, grep, fgrep, egrep, c
 sha1sum, sha224sum, sha256sum, sha384sum, sha512sum, adb, gzip, gunzip, bzip2, bunzip2, xz,
 unxz, lzma, unlzma, 7z, 7za, zcat, bzcat, lzcat, split, gpg, or wrong permissions.
 ```
-
----
-
-## Ultimate Plumber (up)
-
-interactive REPL for shell piping
-
-- <gh-stars count="8k"/> <https://github.com/akavel/up>
-- interactive piping
-- instant live preview
-- category: search, file manipulation, interactive
-
-<img
-  class="absolute top-20 right-20 w-50"
-  src="/images/ultimate-plumber-logo.svg"
-/>
 
 ---
 
@@ -804,33 +793,12 @@ Required: font providing all symbols
 
 ---
 
-## boxes 🦄
+## hollywood 🦄
 
-- <https://boxes.thomasjensen.com/docs/>
-- ascii art boxes
-- show all templates: `boxes -l`
+- <https://github.com/dustinkirkland/hollywood>
+- random crazy stuff in the terminal
 - category: unix porn
-
-<img
-  class="absolute bottom-30 right-30 w-100"
-  src="/images/boxes.png"
-/>
-
----
-
-## chatGPT-shell-cli
-
-2023 - no presentation without the current hype: ChatGPT
-
-- <gh-stars count="414"/> <https://github.com/0xacx/chatGPT-shell-cli>
-- Chat-GPT client without any dependencies
-- like most clients: requires API-Key
-- command: `chatgpt`
-
-<img
-  class="absolute bottom-30 right-30 w-200"
-  src="/images/chatgpt.png"
-/>
+- Live demo
 
 ---
 
@@ -875,11 +843,7 @@ Everything lazy*
 
 I've done it 😇
 
-- <gh-stars count="1.9k"/> <https://github.com/jaspervdj/patat>
-  - Haskell-based
-  - plain CLI
-- no image support
-- no fallback
+- <gh-stars count="5k"/> <https://github.com/mfontanini/presenterm>
 
 ---
 
