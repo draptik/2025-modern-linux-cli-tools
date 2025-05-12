@@ -1,27 +1,23 @@
 # Thank You!
 
-- ✉️ patrick.drechsler@mathema.de
-- https://github.com/draptik
-- Blog: https://draptik.github.io
-- [@drechsler@floss.social](https://floss.social/@drechsler)
-- https://www.linkedin.com/in/patrick-drechsler-draptik/
-- https://bsky.app/profile/drechsler.bsky.social
+- <mdi-email /> <patrick.drechsler@mathema.de>
+- <logos-github-icon /> <https://github.com/draptik>
+- <mdi-web /> <https://draptik.github.io/talks>
+- <logos-mastodon-icon /> [@drechsler@floss.social](https://floss.social/@drechsler)
+- <logos-linkedin-icon /> <https://www.linkedin.com/in/patrick-drechsler-draptik/>
+- <logos-bluesky /> <https://bsky.app/profile/drechsler.bsky.social>
 
 Slides 👉
 
-- QR Code (top) or
-- https://draptik.github.io/2024-05-adc-modern-linux-cli-tools
-
-Feedback 👉
-
-- QR Core (bottom) https://forms.office.com/e/tn5gDB40xk
+- QR Code or
+- <https://draptik.github.io/2025-05-md-devdays-modern-linux-cli-tools>
 
 <img
   class="absolute top-10 right-30 h-70"
-  src="/images/slides-adc-24.png"
+  src="/images/slides-magdeburger-devdays-25.png"
 />
 
 <img
-  class="absolute bottom-20 right-50 h-30"
+  class="absolute bottom-20 right-45 h-30"
   src="/images/anti-nazi.png"
 />
