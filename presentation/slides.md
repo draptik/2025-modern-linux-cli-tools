@@ -777,6 +777,27 @@ Required: font providing all symbols
 
 ---
 
+## lazy*
+
+Everything lazy*
+
+- lazydocker
+  - <gh-stars count="27k"/> <https://github.com/jesseduffield/lazydocker>
+- lazygit
+  - <gh-stars count="35k"/> <https://github.com/jesseduffield/lazygit>
+
+<img
+  class="absolute bottom-0 left-5 w-125"
+  src="/screencasts/lazydocker.gif"
+/>
+
+<img
+  class="absolute top-30 right-5 w-100"
+  src="/screencasts/lazygit.gif"
+/>
+
+---
+
 ## du alternatives 💡
 
 `du` in the name
@@ -815,27 +836,6 @@ Everything *top
 - iotop
 - iftop
 - nethogs
-
----
-
-## lazy*
-
-Everything lazy*
-
-- lazydocker
-  - <gh-stars count="27k"/> <https://github.com/jesseduffield/lazydocker>
-- lazygit
-  - <gh-stars count="35k"/> <https://github.com/jesseduffield/lazygit>
-
-<img
-  class="absolute bottom-0 left-5 w-125"
-  src="/screencasts/lazydocker.gif"
-/>
-
-<img
-  class="absolute top-30 right-5 w-100"
-  src="/screencasts/lazygit.gif"
-/>
 
 ---
 
