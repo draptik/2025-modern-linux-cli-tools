@@ -733,6 +733,26 @@ GitHub CLI
 
 ---
 
+## ShellCheck
+
+static analysis tool for shell scripts
+
+- <gh-stars count="37k"/> <https://github.com/koalaman/shellcheck>
+- plugins available for most IDEs
+- written in Haskell ;-)
+
+---
+
+## task
+
+- <gh-stars count="12k"/> <https://github.com/go-task/task>
+- task runner / simpler Make alternative
+- single binary
+- cross-platform
+- written in Go
+
+---
+
 ## thefuck 💡
 
 fix common typos / mistakes
