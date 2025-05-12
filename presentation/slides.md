@@ -637,6 +637,7 @@ hyperfine --warmup 3 \
 ```
 
 - category: benchmarking
+
 ---
 
 ## progress
