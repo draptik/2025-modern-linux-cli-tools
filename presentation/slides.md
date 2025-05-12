@@ -519,7 +519,18 @@ man pages can be difficult
 
 ## atuin
 
-TODO
+magic shell history
+
+- <gh-stars count="23k"/> <https://github.com/atuinsh/atuin>
+- powerful history search (`ctrl+r`)
+- uses SQLite under the hood
+- also allows synchronizing between machines
+- Example: `dotnet tool`
+
+<img
+  class="absolute top-20 right-5 w-120"
+  src="/images/atuin.gif"
+/>
 
 ---
 
