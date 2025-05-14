@@ -742,6 +742,8 @@ static analysis tool for shell scripts
 - written in Haskell ;-)
 
 ---
+layout: two-cols
+---
 
 ## task
 
@@ -750,6 +752,25 @@ static analysis tool for shell scripts
 - single binary
 - cross-platform
 - written in Go
+
+::right::
+
+```yaml
+version: '3'
+
+vars:
+  GREETING: Hello, World!
+
+tasks:
+  default:
+    cmds:
+      - echo "{{.GREETING}}"
+    silent: true
+
+  test:
+    cmds:
+      - dotnet test
+```
 
 ---
 
