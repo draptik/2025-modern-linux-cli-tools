@@ -10,11 +10,11 @@
 Slides 👉
 
 - QR Code or
-- <https://draptik.github.io/2025-05-md-devdays-modern-linux-cli-tools>
+- <https://draptik.github.io/2025-05-swec-modern-linux-cli-tools>
 
 <img
   class="absolute top-10 right-30 h-70"
-  src="/images/slides-magdeburger-devdays-25.png"
+  src="/images/slides-swec-25.png"
 />
 
 <img

@@ -3,9 +3,9 @@ theme: ./mathema-2023
 defaults:
   layout: "default-with-footer"
 title: 'modern linux cli tools'
-occasion: "MD-DevDays 2025"
+occasion: "SWEC 2025"
 ## must be a relative path
-occasionLogoUrl: "./images/logo-md-devdays25.svg"
+occasionLogoUrl: "./images/logo-swec.png"
 company: "MATHEMA GmbH"
 presenter: "Patrick Drechsler"
 contact: "patrick.drechsler@mathema.de"
