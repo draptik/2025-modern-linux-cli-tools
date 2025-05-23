@@ -2,7 +2,7 @@
 
 - <mdi-email /> <patrick.drechsler@mathema.de>
 - <logos-github-icon /> <https://github.com/draptik>
-- <mdi-web /> <https://draptik.github.io/talks>
+- 🗣️ <https://draptik.github.io/talks>
 - <logos-mastodon-icon /> [@drechsler@floss.social](https://floss.social/@drechsler)
 - <logos-linkedin-icon /> <https://www.linkedin.com/in/patrick-drechsler-draptik/>
 - <logos-bluesky /> <https://bsky.app/profile/drechsler.bsky.social>
