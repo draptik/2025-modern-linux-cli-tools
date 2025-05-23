@@ -525,12 +525,24 @@ magic shell history
 - powerful history search (`ctrl+r`)
 - uses SQLite under the hood
 - also allows synchronizing between machines
+- cross-shell
 - Example: `dotnet tool`
 
 <img
   class="absolute top-20 right-5 w-120"
   src="/images/atuin.gif"
 />
+
+---
+
+## zoxide
+
+a smarter cd command, inspired by z and autojump.
+
+- <gh-stars count="26k"/> <https://github.com/ajeetdsouza/zoxide>
+- cross-shell
+- interactive mode
+- integrates nicely with other tools such as `fzf`, `ranger`, `yazi`, `atuin`
 
 ---
 
