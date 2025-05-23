@@ -774,17 +774,16 @@ tasks:
 
 ---
 
-## thefuck 💡
+## pay-respects 💡
 
-fix common typos / mistakes
+Command suggestions, command-not-found and `thefuck` replacement written in Rust
 
-- <gh-stars count="77k"/> <https://github.com/nvbn/thefuck>
-- example: pushing a newly created git branch
+- <gh-stars count="200"/> <https://github.com/iffse/pay-respects>
 - category: productivity
 
 <img
   class="absolute bottom-0 right-0 w-150"
-  src="/images/thefuck.gif"
+  src="/images/pay-respects.gif"
 />
 
 ---
