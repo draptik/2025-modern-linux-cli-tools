@@ -872,7 +872,7 @@ Everything lazy*
 
 Everything *top
 
-- btop
+- btop 😎
 - apachetop
 - ngxtop
 - mtp
