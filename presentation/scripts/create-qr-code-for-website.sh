@@ -16,4 +16,5 @@
 #qrencode -s 6 -l H -o "../public/images/slides-adc-24.png" https://draptik.github.io/2024-05-adc-modern-linux-cli-tools
 #qrencode -s 6 -l H -o "../public/images/slides-adc-24-feedback.png"  https://forms.office.com/e/tn5gDB40xk
 #qrencode -s 6 -l H -o "../public/images/slides-magdeburger-devdays-25.png" https://draptik.github.io/2025-05-md-devdays-modern-linux-cli-tools
-qrencode -s 6 -l H -o "../public/images/slides-swec-25.png" https://draptik.github.io/2025-05-swec-modern-linux-cli-tools
+#qrencode -s 6 -l H -o "../public/images/slides-swec-25.png" https://draptik.github.io/2025-05-swec-modern-linux-cli-tools
+qrencode -s 6 -l H -o "../public/images/slides-mathema-campus-25.png" https://draptik.github.io/2025-05-mathema-campus-modern-linux-cli-tools
