@@ -459,18 +459,6 @@ fast terminal file manager
 />
 
 ---
-
-## Emacs: wdired-mode
-
-- for Emacs users
-- <https://www.gnu.org/software/emacs/manual/html_node/emacs/Wdired.html>
-- `emacs -nw .` emacs in current directory in terminal (`-nw`: non-window mode)
-- `M-x wdired-change-to-wdired-mode`
-- edit (using all emacs features)
-- finish: `C-c C-c`
-- exit
-
----
 layout: two-cols
 ---
 
