@@ -629,6 +629,11 @@ layout: two-cols
 - <gh-stars count="8k"/> <https://github.com/wader/fq>
 - for example: audio, video, images, etc.
 
+---
+layout: image-left
+image: '/images/yaml-meme.jpg'
+---
+
 ### yq
 
 - `jq`, but for YAML
