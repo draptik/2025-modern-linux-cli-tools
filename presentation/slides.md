@@ -3,9 +3,9 @@ theme: ./mathema-2023
 defaults:
   layout: "default-with-footer"
 title: 'modern linux cli tools'
-occasion: "MATHEMA Campus 2025"
+occasion: "CodeBuzz 2025"
 ## must be a relative path
-occasionLogoUrl: "./images/logo-mathema-campus.svg"
+occasionLogoUrl: "./images/logo-codebuzz.png"
 company: "MATHEMA GmbH"
 presenter: "Patrick Drechsler"
 contact: "patrick.drechsler@mathema.de"
@@ -15,6 +15,8 @@ layout: cover
 transition: slide-left
 mdc: true
 download: true
+addons:
+  - fancy-arrow
 
 src: ./00-title.md
 ---

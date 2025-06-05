@@ -7,7 +7,7 @@
 
 <img
   class="absolute top-10 right-30 h-70"
-  src="/images/slides-mathema-campus-25.png"
+  src="/images/slides-codebuzz-25.png"
 />
 
 <img
