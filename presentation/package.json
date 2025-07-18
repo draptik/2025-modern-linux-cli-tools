@@ -8,11 +8,11 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^51.8.0",
+    "@slidev/cli": "^52.0.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "slidev-addon-fancy-arrow": "^0.8.0",
-    "vue": "^3.5.14"
+    "vue": "^3.5.17"
   },
   "devDependencies": {
     "@iconify-json/emojione": "^1.2.1",
