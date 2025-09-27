@@ -19,4 +19,5 @@
 #qrencode -s 6 -l H -o "../public/images/slides-swec-25.png" https://draptik.github.io/2025-05-swec-modern-linux-cli-tools
 #qrencode -s 6 -l H -o "../public/images/slides-mathema-campus-25.png" https://draptik.github.io/2025-05-mathema-campus-modern-linux-cli-tools
 # qrencode -s 6 -l H -o "../public/images/slides-codebuzz-25.png" https://draptik.github.io/2025-06-codebuzz-modern-linux-cli-tools
-qrencode -s 6 -l H -o "../public/images/slides-socrates-de.png" https://draptik.github.io/2025-07-socrates-de-modern-linux-cli-tools
+# qrencode -s 6 -l H -o "../public/images/slides-socrates-de.png" https://draptik.github.io/2025-07-socrates-de-modern-linux-cli-tools
+qrencode -s 6 -l H -o "../public/images/slides-socrates-at.png" https://draptik.github.io/2025-09-socrates-at-modern-linux-cli-tools

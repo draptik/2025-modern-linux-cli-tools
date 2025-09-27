@@ -3,7 +3,7 @@ theme: ./mathema-2023
 defaults:
   layout: "default-with-footer"
 title: 'modern linux cli tools'
-occasion: "SoCraTes 2025"
+occasion: "SoCraTes AT 2025"
 ## must be a relative path
 occasionLogoUrl: "./images/logo-socrates.png"
 company: "MATHEMA GmbH"

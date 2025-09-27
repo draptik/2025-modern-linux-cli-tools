@@ -14,11 +14,11 @@
 Slides 👇
 
 - QR Code or
-- <https://draptik.github.io/2025-07-socrates-de-modern-linux-cli-tools>
+- <https://draptik.github.io/2025-09-socrates-at-modern-linux-cli-tools>
 
 <img
   class="absolute top-10 right-30 h-70"
-  src="/images/slides-socrates-de.png"
+  src="/images/slides-socrates-at.png"
 />
 
 <img
